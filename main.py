@@ -23,7 +23,7 @@ colors = ['#ffc04d', '#ffae1a', '#ffb733', '#ffa500',
  #   df = pd.read_csv('C:/Users/Chaev-Tech/ml_kit/preprocessed.csv')
  #   print('preprocessed_data is loaded')
 #except:    
-df = pd.read_csv('data_dash.csv')
+df = pd.read_csv('/content/genesis_test/data_dash.csv')
 print('preprocessing the data')
 df["install_time"] = pd.to_datetime(df['install_time'])
 
